@@ -1,0 +1,22 @@
+#menu-mobile {
+	display:none;
+}
+
+@media screen and (max-width: 870px) { 
+
+#menu {
+    top: 150px !important;
+    width: 300px;
+    left: 20px;
+    float: left !important;
+    position: absolute !important;
+}
+
+
+}
+@media screen and (max-width: 680px) { 
+
+.imgs {
+    margin-top: 40px;
+}
+}

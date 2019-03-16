@@ -1,0 +1,188 @@
+@import '_blog365.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat,200,400,700');
+@import '_texts.scss'; 
+
+
+header {	
+	width: 90%;
+	height: 200px;
+	margin-left:auto;
+    margin-right:auto;
+}
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+#rectangle {
+    width: 1px;
+    height: 14px;
+    background-color: #e7e7e7;
+}
+#spacer {
+    width:50px;
+}
+#socialmedia {
+	top: 99px;
+    position: relative;
+    left: 109px;
+    width: 350px;
+}
+#smm {
+	left: 24px;
+    position: absolute;
+    top: -7px;
+    }
+
+#logo {
+    width: 88px;
+    height: 50px;
+    object-fit: contain;
+    position: relative;
+    float: left;
+    background: url('/assets/365blog_logo.svg');
+    top: 80px;
+}
+
+#logo:hover {
+    opacity: 0.7;
+}
+
+#menu {
+	float: right;
+    position: relative;
+    top: 80px;
+}
+
+.li-menu {
+	float:left;
+	padding: 15px;
+	cursor: pointer;
+}
+.li-menu:hover {
+	opacity: 0.6;
+}
+
+footer {
+	width:100%;
+	height: 400px;
+    background-color: #fafafa;
+    margin-top: 50px
+}
+#footer-container {
+	margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.imgs {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+#img-1 {
+    width:90%;
+    max-width: 1280px;
+    height: auto;
+
+}
+
+.button {
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    border: solid 1px #e9e9e9;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 17px;
+    letter-spacing: 4px;
+    color: #4a4a4a;
+    cursor: pointer;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #cccccc;
+    text-align: center;
+    padding-top: 17px;
+    letter-spacing: 4px;
+    color: #4a4a4a;
+    text-decoration: none;
+  }
+  .button2 {
+    width: 361px;
+    height: 60px;
+    border-radius: 50px;
+    border: solid 1px #e9e9e9;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 17px;
+    letter-spacing: 4px;
+    color: #4a4a4a;
+    cursor: pointer;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.button2:hover {
+    background-color: #cccccc;
+    text-align: center;
+    padding-top: 17px;
+    letter-spacing: 4px;
+    color: #4a4a4a;
+    text-decoration: none;
+  }
+  .barra-destaque {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fafafa;
+    height: 240px;
+    max-width: 1280px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 70px;
+    margin-top:70px;
+  }
+  .text-align-center {
+      text-align: center;
+  }
+  .article-footer-bar {
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid 1px #cccccc;
+    max-width: 1200px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px;
+    margin-top: 70px;
+    padding-top: 20px;
+  }
+  #nav {
+    max-width: 1200px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    height: 10px;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 20px;
+  }
+  #previous {
+    float: left;
+    cursor: pointer;
+  }
+  #next {
+    float: right;
+    cursor: pointer;
+  }
+
+#previous:hover {
+ opacity: 0.5;
+}
+#next:hover {
+    opacity: 0.5;
+   }
+     

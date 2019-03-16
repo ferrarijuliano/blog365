@@ -23,9 +23,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/sass/_main.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/scripts.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -132,5 +134,10 @@
       }
     }
   },
-  "defaultProject": "myblog"
+  "defaultProject": "myblog",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
